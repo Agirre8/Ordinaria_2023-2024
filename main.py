@@ -1,3 +1,4 @@
-from Ejercicio1 import *
+from lanzador import *
+
 if __name__ == "__main__":
-    main()
+    lanzador()
