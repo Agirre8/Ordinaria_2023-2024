@@ -1,7 +1,7 @@
 from fabricas import FabricaEdificiosConcretos, FabricaEdificiosConcretosAmpliada
 
 def ejercicio1_main():
-    # Fabrica original
+    #Fabricaoriginal
     fabrica = FabricaEdificiosConcretos()
 
     edificio = fabrica.crear_edificio()
@@ -18,7 +18,7 @@ def ejercicio1_main():
 
     print("\n------------------------\n")
 
-    # Implementación de la fábrica ampliada
+    #implementación de la fabrica ampliada
     fabrica_ampliada = FabricaEdificiosConcretosAmpliada()
 
     edificio_ampliado = fabrica_ampliada.crear_edificio()
@@ -35,11 +35,12 @@ def ejercicio1_main():
 
     print("\n------------------------\n")
 
-    # Crear ciudad con la fábrica ampliada
+    #crear ciudad con la fabrica ampliada
     ciudad_fabrica_ampliada = fabrica_ampliada.crear_ciudad(cantidad_edificios=5)
 
     print("Ciudad fabricada con Fábrica ampliada:")
     for edificio, estilo in ciudad_fabrica_ampliada:
         print(f"Edificio: {edificio}, Estilo: {estilo}")
 
-
+if __name__ == "__main__":
+    ejercicio1_main()

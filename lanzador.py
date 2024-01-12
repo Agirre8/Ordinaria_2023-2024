@@ -1,6 +1,8 @@
 
+#no me ha dado tiempo a que funcione ejecutar los mains en los archivos main1 y main2 en las carpetas
+
 from Ejercicio1.main import ejercicio1_main
-from Ejercicio2.main import ejercicio2_main
+from Ejercicio2.main import ejercicio1_main
 
 def lanzador():
     while True:

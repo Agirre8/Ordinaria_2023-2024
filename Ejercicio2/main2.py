@@ -5,7 +5,6 @@ from funciones_sistema import iniciar_proyecto, completar_fase, cumplir_regulaci
 
 def ejercicio2_main():
     
-    # Ejemplo de uso del sistema
     estilo_moderno = EstiloArquitectonico(nombre="Moderno")
     regulacion_local_casa = RegulacionLocal(restriccion_altura=50, eficiencia_energetica="A")
 

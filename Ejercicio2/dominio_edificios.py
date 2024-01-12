@@ -1,4 +1,4 @@
-# dominio_edificios.py
+
 from dataclasses import dataclass
 
 @dataclass

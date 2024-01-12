@@ -1,4 +1,4 @@
-# funciones_sistema.py
+
 from dominio_edificios import Edificio, EstiloArquitectonico, RegulacionLocal
 from dominio_diseno_construccion import DiseñoArquitectonico, Fase, Proyecto
 from dominio_regulaciones import RestriccionAltura, RequisitoEficienciaEnergetica, Regulacion

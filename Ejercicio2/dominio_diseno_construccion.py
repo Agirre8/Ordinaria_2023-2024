@@ -1,4 +1,4 @@
-# dominio_diseno_construccion.py
+
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import List

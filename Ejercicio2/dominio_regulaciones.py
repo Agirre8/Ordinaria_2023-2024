@@ -1,4 +1,4 @@
-# dominio_regulaciones.py
+
 from dataclasses import dataclass
 
 @dataclass
