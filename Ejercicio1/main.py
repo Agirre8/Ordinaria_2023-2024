@@ -42,5 +42,4 @@ def ejercicio1_main():
     for edificio, estilo in ciudad_fabrica_ampliada:
         print(f"Edificio: {edificio}, Estilo: {estilo}")
 
-if __name__ == "__main__":
-    ejercicio1_main()
+

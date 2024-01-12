@@ -1,4 +1,6 @@
-from Ejercicio1 import ejercicio1_main
+
+from Ejercicio1.main import ejercicio1_main
+from Ejercicio2.main import ejercicio2_main
 
 def lanzador():
     while True:
@@ -12,10 +14,12 @@ def lanzador():
         if opcion == "1":
             ejercicio1_main()
         elif opcion == "2":
-            # Importa y ejecuta otro ejercicio si lo tienes
-            print("Otro ejercicio aún no implementado.")
+            ejercicio2_main()
         elif opcion == "0":
             print("Saliendo del lanzador.")
             break
         else:
             print("Opción no válida. Introduce un número válido.")
+
+if __name__ == "__main__":
+    lanzador()
