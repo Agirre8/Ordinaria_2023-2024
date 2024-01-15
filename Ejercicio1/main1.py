@@ -17,7 +17,7 @@ def ejercicio1_main():
     print(f"Estilo clonado: {estilo_clon}")
 
     print("\n------------------------\n")
-
+ 
     #implementación de la fabrica ampliada
     fabrica_ampliada = FabricaEdificiosConcretosAmpliada()
 
