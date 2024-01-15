@@ -3,6 +3,7 @@ from edificios import Edificio, EdificioResidencial
 from estilos_arquitectonicos import EstiloArquitectonico, EstiloModerno, EstiloContemporaneo
 
 
+    
 class FabricaEdificios(ABC):
     @abstractmethod
     def crear_edificio(self) -> Edificio:
